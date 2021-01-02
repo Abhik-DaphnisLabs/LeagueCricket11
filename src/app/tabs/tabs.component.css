@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.tab {
+    /* border: 3px black solid; */
+    display: inline-block;
+    box-shadow: 0px 8px 8px 0px  rgba(0,0,0,0.2);
+    margin-top: 10px;
+    margin-left: 620px;
+    margin-right: 620px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+    background-color: rgba(233, 241, 241, 0.281);
+}
+.indianFlag {
+    width: 50%;
+    border-radius: 50%;
+}
+.australianFlag {
+    width: 50%;
+    border-radius: 50%;
+}
+.imageColumn {
+    margin-top: -5px;
+    position: relative;
+    position: 10px;
+    float: left;
+    width: 33.33%;
+}
+h4 {
+    margin-top: 10px;
+    font-family: BigNoodleTitling;
+}
+.v {
+    font-family: BigNoodleTitling;
+    font-weight: bold;
+    font-size: 25px;
+}
+.s {
+    font-family: BigNoodleTitling;
+    color: red;
+    font-weight: bold;
+    font-size: 25px;
+}
+.text {
+    text-align: center;
+    margin-top: 68px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin-bottom: -30px;
+    font-size: 22px;
+    letter-spacing: 0;
+}
