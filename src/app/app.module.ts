@@ -7,6 +7,7 @@ import { TabsComponent } from './tabs/tabs.component';
 import { HomeComponent } from './home';
 import { CricketComponent } from './cricket';
 import { AboutComponent } from './about';
+import { ContactUsComponent } from './contactUs';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { AboutComponent } from './about';
     HomeComponent,
     CricketComponent,
     AboutComponent,
+    ContactUsComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

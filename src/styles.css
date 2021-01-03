@@ -168,16 +168,32 @@ nav a {
   min-width: 200px;
 }
 .content,
-.about-container {
+.about-container,
+.contactUs-container {
   width: 100%;
   display: grid;
   grid-template-columns: 1fr;
   padding-top: 100px;
   justify-items: center;
 }
-.about-container {
-  padding-top: 70px;
+.about-container,
+.contactUs-container {
+  padding-top: 80px;
   min-height: calc(100vh - 70px);
+}
+.contactUs-container {
+  background-color: #f3f2f2;
+}
+.contact-mini p {
+  color: black;
+  font-size: 40px;
+  margin-top: 50px;
+  font-family: BigNoodleTitling;
+  font-weight: lighter;
+  letter-spacing: 3px;
+}
+.contact-mini p b {
+  color: red;
 }
 .table_content {
   width: 40%;
@@ -191,6 +207,16 @@ nav a {
   padding-bottom: 60px;
   display: grid;
   justify-items: center;
+}
+.contact-mini {
+  background-color: #f3f2f2;
+  width: 100%;
+  padding: 40px;
+  text-align: center;
+}
+.contact-mini-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 .about-mini img {
   width: 60%;
@@ -326,8 +352,8 @@ nav a {
 }
 .theEnd {
   background-color: red;
-  width: 100%;
-  height: 90px;
+  width: 100vw;
+  height: 100px;
 }
 .logo2 {
   width: 33.33%;
@@ -357,8 +383,37 @@ nav a {
   text-align: right;
   width: 33.33%;
   float: right;
+  margin-right: 10px;
 }
 /* .upper {
     width: 50%;
     position: relative;
 } */
+
+@media (max-width: 1200px) {
+  .theEnd {
+    width: 100vw;
+    height: 40vh;
+  }
+  nav {
+    text-align: center;
+  }
+}
+@media (max-width: 900px) {
+  nav {
+    text-align: left;
+  }
+}
+@media (max-width: 600px) {
+  .logo {
+    width: 10%;
+    float: left;
+    margin: 0px;
+    line-height: 20px;
+    position: 0px;
+    text-align: justify;
+  }
+  .logo a {
+    font-size: 20px;
+  }
+}
