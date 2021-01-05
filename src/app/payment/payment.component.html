@@ -1,4 +1,4 @@
-<div class="new">
+<div class="new" style="padding-top: 200px; padding-bottom: 140px;">
   <form #userPost="ngForm" *ngIf="!submitted" (ngSubmit)="onSubmit()">
     <table
       border="0"
@@ -52,12 +52,12 @@
         <td class="labelfont">AMOUNT:</td>
         <td class="form-control">
           <input
-            type="text"
+            type="number"
             name="AMOUNT"
             class="signuptextfield"
+            value="150"
             autocomplete="off"
-            required
-            [(ngModel)]="paymentModel.AMOUNT"
+            readonly
           />
         </td>
       </tr>

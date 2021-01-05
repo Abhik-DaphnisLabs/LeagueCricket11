@@ -9,6 +9,9 @@ export class PaymentModel {
     public CUST_PHONE: string,
     public CUST_EMAIL: string,
     public CURRENCY_CODE: number,
-    public RETURN_URL: string
+    public RETURN_URL: string,
+    public SALT: string,
+    public PAY_ID: string,
+    public HASH: string
   ) {}
 }

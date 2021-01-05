@@ -4,12 +4,15 @@ h1 {
 body {
   width: 100%;
   margin: 0 auto;
-  padding-left: 300px;
+  /* padding-right: 300px; */
   background-color: #e4eff5;
+  align-items: center;
+  margin-bottom: 100px;
+
 }
 .signupbox {
   margin: 20px auto 0;
-  padding: 0;
+  /* padding-bottom: 100px; */
   font: normal 12px arial;
   color: #555;
   background: #fff;
@@ -18,6 +21,8 @@ body {
   -webkit-box-shadow: -1px 3px 8px -1px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: -1px 3px 8px -1px rgba(0, 0, 0, 0.75);
   box-shadow: -1px 3px 8px -1px rgba(0, 0, 0, 0.75);
+  align-items: center;
+  /* padding-right: 150px; */
 }
 .signup-headingbg {
   background: #194e84;
@@ -46,6 +51,7 @@ body {
   border-bottom: 1px solid #dadada;
   font: bold 16px Tahoma;
   color: #fff;
+  
   vertical-align: middle;
 }
 .signuptextfield:focus {
@@ -55,6 +61,8 @@ body {
     0 0 8px rgba(102, 175, 233, 0.6);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
     0 0 8px rgba(102, 175, 233, 0.6);
+    align-items: center;
+
 }
 .signupselectfield {
   width: 100%;
@@ -102,7 +110,9 @@ body {
   background-image: linear-gradient(to bottom, #fefeff 0%, #bfd3e1 100%);
 }
 .form-control {
-  width: 60%;
+  width: 38%;
+  /* padding-right: 150px; */
+  align-items: center;
   padding: 4px;
 }
 .labelfont {
@@ -115,6 +125,7 @@ body {
   padding: 5rem;
   font: normal 12px arial;
   color: #555;
+  /* padding-left: 150px; */
 }
 .new table {
   width: 50rem;
@@ -123,10 +134,11 @@ body {
   -webkit-box-shadow: -1px 3px 8px -1px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: -1px 3px 8px -1px rgba(0, 0, 0, 0.75);
   box-shadow: -1px 3px 8px -1px rgba(0, 0, 0, 0.75);
+  /* padding-right: 150px; */
 }
 .signuptextfield {
   width: 98%;
-  padding: 5px;
+  /* padding-left: 450px; */
   font-size: 12px;
   font-family: "Verdana", sans-serif;
   color: #555;
